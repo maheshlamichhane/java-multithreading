@@ -1,0 +1,9 @@
+package prevent.thread.execution.by.yield.method;
+
+public class JPrintThread extends Thread {
+	
+	public void run() {
+		
+	}
+
+}

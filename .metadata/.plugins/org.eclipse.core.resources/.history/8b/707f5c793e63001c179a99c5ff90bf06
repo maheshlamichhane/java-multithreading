@@ -1,0 +1,14 @@
+
+public class Test {
+	
+	/*
+		if two threads are waiting for each other forever such type of infinite
+		waiting is called deadlock.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

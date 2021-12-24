@@ -1,0 +1,19 @@
+package prevent.thread.execution.by.join.method;
+
+public class Test {
+	
+	/*
+	 if a thread wants to wait until completing some other threads then we should go for join method.
+	 if a thread t1 wants to wait until completing t2 then t1 has to call t2.join.
+	 if t1 executes t2.join then immediately t1 will be enter into waiting state until t2 completes.once
+	 a t2 completes then t1 can continue it's execution.
+	 example: in marriage event there are a lot of activities such as venue fixing,weeding cards 
+	 printing,wedding cards distribution.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

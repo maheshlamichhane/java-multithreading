@@ -1,0 +1,15 @@
+package prevent.thread.execution.by.sleep.method;
+
+public class Test {
+	
+	/*
+	 The real world example of sleep is slider in ppt file.it can sleep for specified time and after '
+	 that automatically moves to next slide.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

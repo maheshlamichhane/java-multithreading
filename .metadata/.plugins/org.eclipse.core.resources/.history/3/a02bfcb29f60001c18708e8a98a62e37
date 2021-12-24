@@ -1,0 +1,10 @@
+package thread.priority.real.world.program;
+
+public class ThreadPriorityDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package prevent.thread.execution.by.yield.method;
+
+public class Test {
+	
+	/**
+	   yield method causes to pause current executing thread to give the chance for waiting thread
+	   of same priority.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

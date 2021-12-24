@@ -1,0 +1,36 @@
+
+public class Test {
+	
+	/*
+	 	The problems with traditional synchronizer keyword:-> 
+	 	i. we are not having any flexibility to try for the lock without waiting.
+	 	ii. there is no way to specify maximum waiting time for a thread to get lock so that thread will wait a until
+	 	getting the lock which may creates performance problems which may cause deadlock.
+	 	iii.if a thread releases a lock then which waiting thread will get that lock we are not having any control on
+	 	this.
+	 	iv. there is no api to listout all waiting threads for a lock
+	 	v. the synchronizer keyword compulsary we have to use either at method level or within the method level and 
+	 	it is not possible use across multiple methods.
+	 	
+	 	
+	 	To overcome these problems sun people introducer java.util.concurrent.locks package in 1.5 version.it also
+	 	provides several enhancements to the programmer to provide more control on concurency.
+	 	
+	 	Lock interface:Lock object is simillar to implict lock acquired by a thread to execute synchronizer method 
+	 	or synchronizer block.lock implementations provide more extensive operations than traditional implict locks.
+	 	
+	 	Improtant methods of lock interface : 
+	 	i. void lock(); we can use this method to acquire a lock if lock is already available then imeediately curent
+	 	thread will get that lock.if the lock is already not available then it will wait until getting the lock.it
+	 	is exactly same behaviour of traditional synchronizer keyword.
+	 	
+	 	ii. boolean tryLock();
+	 	
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

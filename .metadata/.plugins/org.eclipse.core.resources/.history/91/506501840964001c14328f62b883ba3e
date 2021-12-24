@@ -1,0 +1,36 @@
+package reentrant.program.using.trylock.with.parameter;
+
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class MyThread extends Thread {
+	
+	ReentrantLock I = new ReentrantLock();
+	
+	public MyThread(String name) {
+		super(name);
+	}
+	
+	public void run() {
+			do {
+				try
+				{
+					if(I.tryLock())
+					{
+					System.out.println(Thread.currentThread().getName()+"...got lock and performing safe operations");
+			        Thread.sleep(30000);
+					I.unlock();
+					System.out.println(Thread.currentThread().getName()+"..releases the lock");
+					break;
+				    }
+				    else
+				    {
+					System.out.println(Thread.currentThread().getName()+"... unable to get lock hence performing alternative operations");
+					}
+			    }catch (InterruptedException e) {
+				    e.printStackTrace();
+			    }
+			}while(true);
+	}
+
+}

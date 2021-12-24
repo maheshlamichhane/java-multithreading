@@ -1,0 +1,31 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		/*
+		 	ThreadLocal class provides thread local variables.thread local class maintains values per thread basis.
+		 	each thread local object maintains a separate value like user_id,transaction_id etc.for each thread
+		 	that accesses that object.thread can access it's local value,can manipulate it's value and even can remove
+		 	it's value.in every part of the code which is executed by thread we can access it's local variable.
+		 	Example: consider a servlet which invokes some business methods.we have a requirement to generate a 
+		 	unique transaction_id for each and every request.and we have to pass this transaction id to the business
+		 	methods.for this requirement we can use thread local to maintain a separate transaction id for every 
+		 	request that is for every thread.
+		 	
+		 	Note:- ThreadLocal comes in 1.2 version and enhaced in 1.5 version.ThreadLocal can be associated with
+		 	thread scope.total code which is executed by thread has access to the corresponding thread local variables.
+		 	thread can access it's own local variables and can't access other threads local variables.
+		 	
+		 	once thread entered into dead state all it's local variables are by default available for garbage collection.
+		 	
+		 	ThreadLocal i1 = new ThreadLocal();
+		 	
+		 	
+		 	Object get(); returns the value of thread local variable associated with current thread.
+		 	
+		 */
+
+	}
+
+}

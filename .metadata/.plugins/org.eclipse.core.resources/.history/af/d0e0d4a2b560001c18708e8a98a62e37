@@ -1,0 +1,5 @@
+package prevent.thread.execution.by.yield.method;
+
+public class IPrintThread extends Thread {
+
+}

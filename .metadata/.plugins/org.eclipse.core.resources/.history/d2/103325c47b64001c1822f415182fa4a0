@@ -1,0 +1,5 @@
+package thread.local.program.with.multiple.thread;
+
+public class CustomerThread extends Thread {
+
+}

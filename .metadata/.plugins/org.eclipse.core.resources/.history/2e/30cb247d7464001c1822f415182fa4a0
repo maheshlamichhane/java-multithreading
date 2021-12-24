@@ -1,0 +1,39 @@
+package thread.pool.example.with.callable_interface;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class Test {
+	
+	/*
+	 	callable and future:-
+	 	-> in the case of runnable job thread won't return anything after completing the job.if a thread is required
+	 	to return some result after execution then we should go for callable.
+	 	-> callable interface contain only one method call.
+	 	public Object call() throws Exception{}
+	 	-> if we submit callleable object to executer then after completing the job thread return an object of the
+	 	type Future.
+	 	-> Future object can be used to reterive the result from callable jobs.
+	 	
+	 */
+
+	public static void main(String[] args) {
+		
+		MyCallable[] call = {
+				new MyCallable(10),
+				new MyCallable(20),
+				new MyCallable(30),
+				new MyCallable(40),
+				new MyCallable(50),
+				new MyCallable(60),
+		};
+		
+		ExecutorService service = Executors.newFixedThreadPool(3);
+		for(MyCallable c : call) {
+			Future f = service.submit(c);
+		}
+		service.shutdown();
+
+	}
+
+}

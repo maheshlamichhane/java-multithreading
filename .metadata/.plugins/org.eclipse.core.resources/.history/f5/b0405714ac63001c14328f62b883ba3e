@@ -1,0 +1,12 @@
+
+public class Test {
+	/*
+	 	The threads which are executing in the background are called daemon threads.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

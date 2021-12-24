@@ -1,0 +1,19 @@
+package inter.thread.communication.demo;
+
+public class Test {
+	
+	/*
+	 	two threads can communicate with each other by using wait,notify,notifyall method.
+	 	the thread which is expecting updation is responsible to called wait method then
+	 	immediately the thread will inter into waiting state.
+	 	the thread which is responsible to perform updation,after performing updation it
+	 	is responsible to call notify method.then waiting will get that notification and
+	 	continue it's execution with those updated items.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

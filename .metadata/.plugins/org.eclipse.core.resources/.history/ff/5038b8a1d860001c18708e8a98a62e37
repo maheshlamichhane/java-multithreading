@@ -1,0 +1,5 @@
+package prevent.thread.execution.by.join.method;
+
+public class MyThread extends Thread {
+
+}

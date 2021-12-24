@@ -1,0 +1,16 @@
+package thread.pool.example.with.callable_interface;
+
+public class Test {
+	
+	/*
+	 	callable interface:-
+	 	public Object call() throws Exception{
+	 	}
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

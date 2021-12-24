@@ -1,0 +1,21 @@
+package thread.local.program.with.multiple.thread;
+
+public class CustomerThread extends Thread {
+	
+	String name;
+	static Integer custId = 0;
+	private static ThreadLocal t1 = new ThreadLocal() {
+		protected Integer initialValue() {
+			return ++custId;
+		}
+	};
+	
+	public CustomerThread(String name) {
+		this.name = name;
+	}
+	
+	public void run() {
+		
+	}
+
+}

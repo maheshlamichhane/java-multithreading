@@ -1,0 +1,21 @@
+
+public class Test {
+	/*
+	 	The threads which are executing in the background are called daemon threads.
+	 	example:garbage collector,signal dispature,attached listener etc.
+	 	the main objective of daemon threads is to provide support for no daemon threads
+	 	(main thread).for example if main threads runs with low memory then JVM runs
+	 	garbage collector to destroy useless objects so that number of bytes of free 
+	 	memory will be improved.with this free memory main thread can continue it's 
+	 	execution.
+	 	
+	 	Usually daemon threads having low priority but based on our requirement daemon
+	 	threads can run with high priority also
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

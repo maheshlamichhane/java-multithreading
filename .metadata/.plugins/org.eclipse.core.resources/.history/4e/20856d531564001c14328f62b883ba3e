@@ -1,0 +1,14 @@
+
+public class Test {
+	
+	/*
+	  creating a new thread for every job may creates performance or memory problem.to overcome this we should 
+	  go for thread pool.thread pool is a pool of already created thread ready to do our jobs.
+	 */
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

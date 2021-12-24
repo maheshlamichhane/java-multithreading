@@ -1,0 +1,5 @@
+package inter.thread.communication.demo;
+
+public class ThreadB extends Thread {
+
+}

@@ -1,0 +1,11 @@
+package reentrantlock.instead.of.synchronize.keyword;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

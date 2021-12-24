@@ -1,0 +1,24 @@
+
+public class Test {
+	
+	/*
+	 	The problems with traditional synchronizer keyword:-> 
+	 	i. we are not having any flexibility to try for the lock without waiting.
+	 	ii. there is no way to specify maximum waiting time for a thread to get lock so that thread will wait a until
+	 	getting the lock which may creates performance problems which may cause deadlock.
+	 	iii.if a thread releases a lock then which waiting thread will get that lock we are not having any control on
+	 	this.
+	 	iv. there is no api to listout all waiting threads for a lock
+	 	v. the synchronizer keyword compulsary we have to use either at method level or within the method level and 
+	 	it is not possible use across multiple methods.
+	 	
+	 	
+	 	To overcome these problems sun people introducer java.util.concurrent.locks package in 1.5 version.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

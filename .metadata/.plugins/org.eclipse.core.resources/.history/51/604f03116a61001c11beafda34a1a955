@@ -1,0 +1,5 @@
+package interrupt.call.occur.after.some.time.of.program.execution;
+
+public class MyThread extends Thread {
+
+}

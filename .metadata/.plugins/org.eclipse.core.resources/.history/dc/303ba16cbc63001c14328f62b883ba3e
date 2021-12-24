@@ -1,0 +1,16 @@
+
+public class Test {
+	
+	/*
+	 	Java multithreading concept is implementned by using the following two modals.
+	 	i. Green Thread Model
+	 	ii. Native OS Model
+	 	
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

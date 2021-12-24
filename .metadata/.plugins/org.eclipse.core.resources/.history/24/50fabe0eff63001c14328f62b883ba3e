@@ -1,0 +1,22 @@
+import java.util.concurrent.locks.ReentrantLock;
+
+public class ReentrantLockDemo {
+
+	public static void main(String[] args) {
+		
+		ReentrantLock I = new ReentrantLock();
+		I.lock();
+		I.lock();
+		System.out.println(I.isLocked()); //true
+		System.out.println(I.isHeldByCurrentThread()); //true
+		System.out.println(I.getQueueLength()); //0
+		I.unlock();
+		System.out.println(I.getHoldCount()); //1
+		System.out.println(I.isLocked()); //true
+		I.unlock();
+		System.out.println(I.isLocked());
+		System.out.println(I.isFair());
+
+	}
+
+}

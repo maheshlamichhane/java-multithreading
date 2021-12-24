@@ -1,0 +1,20 @@
+package interrupt.call.occur.after.some.time.of.program.execution;
+
+public class Test {
+	
+	/*
+	 * whenever we are calling interrupt method if the target thread not in sleeping
+	 * state or waiting state then there is no impact of interrupt call immediately.
+	
+	 */
+
+	public static void main(String[] args) {
+		
+		MyThread t = new MyThread();
+		t.start();
+		t.interrupt();
+		System.out.println("End of program");
+
+	}
+
+}

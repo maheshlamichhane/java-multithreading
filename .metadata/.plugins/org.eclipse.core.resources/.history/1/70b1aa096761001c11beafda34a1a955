@@ -1,0 +1,5 @@
+package interrupt.method.on.sleep.and.join.method_thread;
+
+public class MyThread {
+
+}

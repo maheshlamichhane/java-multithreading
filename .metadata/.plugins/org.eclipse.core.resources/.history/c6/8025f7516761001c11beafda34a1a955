@@ -1,0 +1,17 @@
+package interrupt.method.on.sleep.and.join.method_thread;
+
+public class MyThread  extends Thread{
+		public void run() {
+			for(int i=0; i<=10;i++) {
+				System.out.println("Iam Lazy Thread");
+				try {
+					Thread.sleep(2000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+	
+
+}

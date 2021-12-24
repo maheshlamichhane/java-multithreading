@@ -1,0 +1,5 @@
+package thread.local.program.with.inheritance;
+
+public class ChildThread extends Thread {
+
+}

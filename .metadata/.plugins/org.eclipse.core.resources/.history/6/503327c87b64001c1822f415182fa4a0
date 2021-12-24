@@ -1,0 +1,11 @@
+package thread.local.program.with.multiple.thread;
+
+public class CustomerThread extends Thread {
+	
+	String name;
+	
+	public CustomerThread(String name) {
+		this.name = name;
+	}
+
+}

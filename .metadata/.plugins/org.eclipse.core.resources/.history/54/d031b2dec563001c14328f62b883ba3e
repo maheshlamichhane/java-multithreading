@@ -1,0 +1,29 @@
+
+public class Test {
+	
+	/*
+	 	based on functionality we can group threads into a single unit which is 
+	 	nothing but thread group that is thread group contains group of threads.
+	 	in addition to threads thread group can also contain sub thread groups.
+	 	
+	 	the main advantage of maintaining threads in the form of thread group is
+	 	we can perform common operations very easily.
+	 	
+	 	every thread in java belongs to some group. main thread belongs to main group.
+	 	every thread group in java is the child group of system group either directly or 
+	 	indirectly.hence system group access root for thread group in java.
+	 	system group contains several system level threads like finalizer,reference
+	 	handler,signal dispatcher,attaached listener.
+	 	
+	 	thread group is a java class present in java.lang package and it is a direct 
+	 	child class of object.
+	 */
+
+	public static void main(String[] args) {
+		
+		System.out.println(Thread.currentThread().getThreadGroup().getParent().getName());
+		System.out.println(Thread.currentThread().getThreadGroup().getName());
+
+	}
+
+}

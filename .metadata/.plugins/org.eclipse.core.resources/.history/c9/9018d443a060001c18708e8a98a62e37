@@ -1,0 +1,20 @@
+package thread.priority.real.world.program;
+
+public class ThreadPriorityDemo {
+
+	public static void main(String[] args) {
+		
+		IPrintThread i = new IPrintThread();
+		Thread t = new Thread(i,"I-Print-Thread");
+		
+		JPrintThread j = new JPrintThread();
+		j.setName("J-Print-Thread");
+		
+		for(int k = 0; k <= 10; k++) {
+			System.out.println("Main-Thread");
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package thread.pool.example.with.callable_interface;
+
+public class Test {
+	
+	/*
+	 	callable interface:-
+	 	public Object call() throws Exception{}
+	 	
+	 	callable and future:-
+	 	-> in the case of runnable job thread won't return anything after completing the job.if a thread is required
+	 	to return some result after execution then we should go for callable.
+	 	-> 
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class Test {
+	
+	/*
+	  creating a new thread for every job may creates performance or memory problem.to overcome this we should 
+	  go for thread pool.thread pool is a pool of already created thread ready to do our jobs.java 1.5 version 
+	  introduces threadpool framework to implement thread pools.thread pool framework also known as executer
+	  framework.we can create a thread pool as follows.
+	  ExecuterService service = Executers.newFixedThreadPool(3);
+	 */
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

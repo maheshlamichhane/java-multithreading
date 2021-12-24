@@ -1,0 +1,15 @@
+package thread.pool.example.demo;
+
+public class PrintJob implements Runnable {
+	String name;
+	public PrintJob(String name){
+		this.name=name;
+	}
+
+	@Override
+	public void run() {
+		
+		
+	}
+
+}

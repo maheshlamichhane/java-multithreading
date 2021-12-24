@@ -1,0 +1,13 @@
+package dead.lock.occured.program;
+
+public class B {
+	
+	public synchronized void d2(A a) {
+		System.out.println("Thread started execution of d2() method");
+	}
+	
+	public synchronized void last() {
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package prevent.thread.execution.by.join.method;
+
+public class Test {
+	
+	/*
+	 if a thread wants to wait until completing some other threads then we should go for join method.
+	 if a thread t1 wants to wait until completing t2 then t1 has to call t2.join.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

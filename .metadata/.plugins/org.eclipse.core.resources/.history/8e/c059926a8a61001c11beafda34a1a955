@@ -1,0 +1,17 @@
+
+public class Test {
+	
+	/*
+	 	Synchronizer is the modifier applicable only for methods and blocks,but not for
+	 	classes and variables.
+	 	if multiple threads are trying to operate simultaneously on the same java object
+	 	then there may be a chance of data inconsistency problem.to overcome this problem
+	 	we should go for synchronizer keyword.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

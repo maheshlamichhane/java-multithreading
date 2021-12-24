@@ -1,0 +1,17 @@
+
+public class Test {
+	
+	/*
+		if two threads are waiting for each other forever such type of infinite
+		waiting is called deadlock.
+		
+		synchronizer keyword is the only reason for deadlock situation hence while using
+		synchronizer keyword we have to take special care.
+	 */
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

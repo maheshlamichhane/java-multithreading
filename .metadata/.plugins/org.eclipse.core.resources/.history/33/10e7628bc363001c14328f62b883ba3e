@@ -1,0 +1,19 @@
+
+public class Test {
+	
+	/*
+	 	based on functionality we can group threads into a single unit which is 
+	 	nothing but thread group that is thread group contains group of threads.
+	 	in addition to threads thread group can also contain sub thread groups.
+	 	
+	 	the main advantage of maintaining threads in the form of thread group is
+	 	we can perform common operations very easily.
+	 */
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

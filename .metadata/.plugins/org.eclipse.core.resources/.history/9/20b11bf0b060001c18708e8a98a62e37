@@ -1,0 +1,18 @@
+package prevent.thread.execution.by.yield.method;
+
+public class Test {
+	
+	/**
+	   yield method causes to pause current executing thread to give the chance for waiting thread
+	   of same priority.if there is no waiting thread or  all waiting thread have low priority then same 
+	   thread can continue it's execution. 
+	   If multiiple thread are waiting with same priority then which waiting thread will get the chance 
+	   we can't expect.it depends on thread scheduler.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,6 @@
+package reentrantlock.instead.of.synchronize.keyword;
+
+public class MyThread extends Thread {
+	Display d;
+	String name;
+}

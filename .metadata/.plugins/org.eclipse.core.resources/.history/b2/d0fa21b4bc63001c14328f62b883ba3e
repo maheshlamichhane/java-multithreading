@@ -1,0 +1,23 @@
+
+public class Test {
+	
+	/*
+	 	Java multithreading concept is implementned by using the following two modals.
+	 	i. Green Thread Model
+	 	ii. Native OS Model
+	 	
+	 	Green thread model:-the thread which is managed completely by JVM without taking
+	 	underlying OS support is called grean thread.very few operating system SUN Solaris
+	 	provides support for green thread model.anyway green thread model is depreciated
+	 	and not recomended to use.
+	 	
+	 	Native OS Model:->
+	 	
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

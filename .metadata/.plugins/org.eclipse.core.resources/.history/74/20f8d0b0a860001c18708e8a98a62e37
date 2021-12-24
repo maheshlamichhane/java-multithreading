@@ -1,0 +1,15 @@
+package prevent.thread.execution.by.yield.method;
+
+public class Test {
+	
+	/**
+	   if your thread executes yield method then immadiately it wil pause it's execution
+	   to give the chance to remaining waiting thread
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

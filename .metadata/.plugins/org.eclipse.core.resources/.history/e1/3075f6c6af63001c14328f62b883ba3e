@@ -1,0 +1,41 @@
+
+public class Test {
+	/*
+	 	The threads which are executing in the background are called daemon threads.
+	 	example:garbage collector,signal dispature,attached listener etc.
+	 	the main objective of daemon threads is to provide support for no daemon threads
+	 	(main thread).for example if main threads runs with low memory then JVM runs
+	 	garbage collector to destroy useless objects so that number of bytes of free 
+	 	memory will be improved.with this free memory main thread can continue it's 
+	 	execution.
+	 	
+	 	Usually daemon threads having low priority but based on our requirement daemon
+	 	threads can run with high priority also.during our main thread execution if low
+	 	memory found then JVM automatically turn garbage collector priority 1-10 so it
+	 	runs and freed memory then main thread can continue it's execution.
+	 	
+	 	Checking given thread is daemon or not:->
+	 	i. public boolean isDaemon();
+	 	ii. public void setDaemon(boolean b);
+	 	
+	 	we can check daemon nature of thread by using isDaemon method of thread class.
+	 	we can change daemon nature of a thread by using setDaemon method of thread class
+	 	but changing daemon nature is possible before starting of a thread only.after 
+	 	starting a thread if we are trying to change daemon nature then we will get runtime
+	 	exception saying illegalThreadStateException.
+	 	
+	 	default nature of thread:by default main thread is always non-daemon and for all
+	 	remaining threads daemon nature will be inherited from parent to child that is 
+	 	if the parent thread is daemon then automatically child thread will also daemon and
+	 	if parent thread is non-daemon then automatically child thread will also non-daemon.
+	 	
+	 	it is imposiible to change daemon nature of main thread because it already started
+	 	by JVM at beginng.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

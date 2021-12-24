@@ -1,0 +1,8 @@
+package thread.synchronization.demo.program;
+
+public class MyThread extends Thread {
+	
+	Display d;
+	String name;
+
+}

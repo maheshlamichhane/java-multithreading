@@ -1,0 +1,15 @@
+
+public class Test {
+	
+	/*
+	 	based on functionality we can group threads into a single unit which is 
+	 	nothing but thread group that is thread group contains group of threads.
+	 	in addition to threads thread group can also contain sub thread groups.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package thread.priority.real.world.program;
+
+public class IPrintThread implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

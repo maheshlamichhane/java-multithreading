@@ -1,0 +1,11 @@
+package creating.thread.with.thread_class;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		MyThread t = new MyThread();
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package interrupt.call.occur.after.some.time.of.program.execution;
+
+public class Test {
+	
+	/*
+	
+	 */
+
+	public static void main(String[] args) {
+		
+		MyThread t = new MyThread();
+		t.start();
+		t.interrupt();
+		System.out.println("End of program");
+
+	}
+
+}

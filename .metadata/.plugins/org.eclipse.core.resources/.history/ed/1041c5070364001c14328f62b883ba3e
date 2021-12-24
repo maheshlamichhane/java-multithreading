@@ -1,0 +1,15 @@
+package reentrantlock.program.using.trylock;
+
+public class MyThread extends Thread {
+	
+	ReentrantLock lock = new ReentrantLock();
+	
+	public MyThread(String name) {
+		super(name);
+	}
+	
+	public void run() {
+		if()
+	}
+
+}

@@ -1,0 +1,5 @@
+package thread.priority.real.world.program;
+
+public class JPrintThread extends Thread {
+
+}

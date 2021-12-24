@@ -1,0 +1,18 @@
+package thread.pool.example.with.callable_interface;
+
+import java.util.concurrent.Callable;
+
+public class MyCallable implements Callable {
+	
+	int num;
+	
+	public MyCallable(int num) {
+		this.num=num;
+	}
+
+	@Override
+	public Object call() throws Exception {
+		return null;
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class MyThread extends Thread {
+	
+	public MyThread(ThreadGroup g,String name) {
+		super(g,name);
+	}
+	
+	public void run() {
+		System.out.println("Child Thread");
+		Thread.sleep(5000);
+	}
+
+}

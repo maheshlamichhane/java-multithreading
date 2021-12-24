@@ -1,0 +1,18 @@
+package thread.pool.example.with.callable_interface;
+
+public class Test {
+	
+	/*
+	 	callable interface:-
+	 	public Object call() throws Exception{}
+	 	
+	 	callable and future:-
+	 	-> in the case of runnable job thread won't return anything after completing the job.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

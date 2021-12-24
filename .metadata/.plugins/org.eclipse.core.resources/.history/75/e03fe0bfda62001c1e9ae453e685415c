@@ -1,0 +1,22 @@
+package thread.synchronization.demo.program.with.synchronize.block;
+
+public class Test {
+	
+	/* 
+	      if very few line of the code required synchronization then it is not recomended
+	      to declare entire method as synchronizer. we have to enclose those few line
+	      of the code by using synchronizer block.
+	      the main advanteage of synchronizer block over synchronizer mehtod is it reduces
+	      waiting time of thread and improve preformance of the system.
+	      Real world example: the highway operating only one vechile and multiple with
+	      bride on the center only to route vechile.
+	      if a thread got a lock of particular object p then only it is allowed to execute
+	      this area inside block.
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

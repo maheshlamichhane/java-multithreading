@@ -1,0 +1,5 @@
+package dead.lock.occured.program;
+
+public class MyThread extends Thread {
+
+}

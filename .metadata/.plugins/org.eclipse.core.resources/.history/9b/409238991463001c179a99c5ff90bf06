@@ -1,0 +1,13 @@
+package inter.thread.communication.demo;
+
+public class ThreadB extends Thread {
+	
+	int total = 0;
+	
+	public void run() {
+		synchronized(this) {
+			
+		}
+	}
+
+}

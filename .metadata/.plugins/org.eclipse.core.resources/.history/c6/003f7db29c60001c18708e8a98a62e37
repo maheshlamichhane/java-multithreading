@@ -1,0 +1,17 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		// main thread priority is always 5
+		// child thread priority is always same as parent thread
+		
+		System.out.println(Thread.currentThread().getPriority());
+		Thread.currentThread().setPriority(7);
+		MyThread t = new MyThread();
+		System.out.println(Thread.currentThread().getPriority());
+		System.out.println(Thread.currentThread().getPriority());
+
+	}
+
+}

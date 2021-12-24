@@ -1,0 +1,9 @@
+package thread.synchronization.demo.program.with.synchronize.block;
+
+public class Display {
+	
+	public void wish(String name) {
+		
+	}
+
+}
